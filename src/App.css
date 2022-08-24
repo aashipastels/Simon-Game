@@ -1,0 +1,45 @@
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Press Start 2P', cursive;
+  margin: 70px auto;
+}
+.border{
+  border-color: aliceblue;
+}
+#container{
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+.box{
+  height: 180px;
+  margin: 20px 30px;
+  border: 12px solid black;
+  border-radius: 15%;
+  
+}
+.box0{
+  background-color: green;
+  margin-left: 400px;
+}
+.box1{
+  background-color: red;
+  margin-right: 400px;
+}
+.box2{
+  background-color: yellow;
+  margin-left: 400px;
+}
+.box3{
+  background-color: blue;
+  margin-right: 400px;
+}
+.fadeIn{ animation: fadeIn 2s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
